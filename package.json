@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "cd client && npm install && npm run build"
+    "build": "cd client && yarn install && yarn build"
   },
-  "author": "Wojciech Borkowski",
+  "author": "Ewelina Nowak",
   "license": "ISC",
   "dependencies": {
     "cors": "2.8.5",
