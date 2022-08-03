@@ -8,7 +8,6 @@ const Order = () => {
     const dispatch = useDispatch();
 
     const cart = useSelector(getCartSummary);
-    const cartInfo = useSelector(getAllCartProducts)
 
     const [fName, setFName] = useState('');
     const [lName, setLName] = useState('');

@@ -1,10 +1,8 @@
 import styles from './Cart.module.scss';
 
 import { Row, Col, Button } from "react-bootstrap";
-import { getAllCartProducts, getCartSummary, increaseCartProductAmount } from "../../../redux/cartReducer";
-import { useDispatch, useSelector } from "react-redux";
-import {  faMinus, faPlus } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { getAllCartProducts, getCartSummary } from "../../../redux/cartReducer";
+import { useSelector } from "react-redux";
 import CartProduct from "../CartProduct/CartProduct";
 import { Link } from "react-router-dom";
 

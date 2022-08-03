@@ -1,4 +1,4 @@
-import styles from './CartProduct.module.scss';
+
 
 import { Row, Col, Button } from "react-bootstrap";
 import {  faMinus, faPlus, faXmark} from '@fortawesome/free-solid-svg-icons';
