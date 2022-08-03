@@ -1,7 +1,7 @@
 import { Row, Form, Col, Button, InputGroup } from "react-bootstrap";
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { getAllCartProducts, getCartSummary } from "../../../redux/cartReducer";
+import { getCartSummary } from "../../../redux/cartReducer";
 import { sendOrder } from "../../../redux/orderReducer";
 
 const Order = () => {
