@@ -36,8 +36,8 @@ const KEY = process.env.KEY
 
 
 if(NODE_ENV === 'production') dbUri = `mongodb+srv://${LOGIN}:${KEY}@cluster0.a0lsb.mongodb.net/?retryWrites=true&w=majority`;
-else if(NODE_ENV === 'test') dbUri = 'mongodb://localhost:27017/newWaveDBtest';
-else dbUri = 'mongodb://localhost:27017/newWaveDB';
+else if(NODE_ENV === 'test') dbUri = 'mongodb://localhost:27017/crossfitShopDB';
+else dbUri = 'mongodb://localhost:27017/crossfitShopDB';
 
 mongoose.connect(dbUri, { useNewUrlParser: true, useUnifiedTopology: true });
 const db = mongoose.connection;
