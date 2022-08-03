@@ -1,0 +1,28 @@
+@import "./settings.scss";
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: $color-text-dark;
+    background: $color-light;
+    font-family: $font-text;
+    letter-spacing: 0.5px;
+    overflow-y: scroll;
+    min-height: 100vh;
+  }
+
+.fadeIn {
+  opacity: 1;
+  transition: opacity 1s ease;
+}
+
+.fadeOut {
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+@import './typography.scss';

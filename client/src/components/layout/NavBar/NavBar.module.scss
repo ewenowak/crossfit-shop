@@ -1,0 +1,17 @@
+@import '../../../styles/settings.scss';
+
+.root {
+    background-color: $navbar-bg;
+
+
+    p {
+        font-size: 20px;
+        padding-top: 10px;
+    }
+
+    .navIcon {
+        color: $color-text-dark;
+        padding: 10px;
+        font-size: 30px;
+    }
+}

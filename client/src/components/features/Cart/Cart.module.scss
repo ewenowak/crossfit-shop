@@ -1,0 +1,20 @@
+@import '../../../styles/settings.scss';
+
+.root {
+    border: 2px solid $primary;
+    padding: 10px;
+
+    h2 {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .emptyBasket {
+        text-align: center;
+    }
+
+    .summaryBasket {
+        text-align: center;
+    }
+    
+}
