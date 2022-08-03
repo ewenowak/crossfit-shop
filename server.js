@@ -3,7 +3,9 @@ const cors = require('cors');
 const path = require('path');
 const mongoose = require('mongoose');
 
+
 const productsRoutes = require('./routes/products.routes');
+const ordersRoutes = require('./routes/orders.routes');
 
 const app = express();
 
